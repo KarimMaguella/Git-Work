@@ -1,0 +1,1 @@
+C:\Program Files (x86)\Git-Work\CS433\Quiz 4\CPUID_check_RDSEED\x64\Release\CPUID_check_RDSEED.exe

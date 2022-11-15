@@ -1,0 +1,6 @@
+﻿  AVX_CPP.cpp
+  Generating code
+  Previous IPDB not found, fall back to full compilation.
+  All 4 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  Finished generating code
+  AVX_CPP.vcxproj -> C:\Git-Work\CS433\Quiz 4\AVX_CPP\Release\AVX_CPP.exe

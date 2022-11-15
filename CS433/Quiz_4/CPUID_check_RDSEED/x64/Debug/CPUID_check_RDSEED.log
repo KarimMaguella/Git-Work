@@ -1,0 +1,14 @@
+﻿  source.cpp
+C:\Program Files (x86)\Git-Work\CS433\Quiz 4\CPUID_check_RDSEED\source.cpp(22,20): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type '__int64'
+C:\Program Files (x86)\Git-Work\CS433\Quiz 4\CPUID_check_RDSEED\source.cpp(22,20): message : consider using '%lld' in the format string
+C:\Program Files (x86)\Git-Work\CS433\Quiz 4\CPUID_check_RDSEED\source.cpp(22,20): message : consider using '%Id' in the format string
+C:\Program Files (x86)\Git-Work\CS433\Quiz 4\CPUID_check_RDSEED\source.cpp(22,20): message : consider using '%I64d' in the format string
+C:\Program Files (x86)\Git-Work\CS433\Quiz 4\CPUID_check_RDSEED\source.cpp(27,20): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type '__int64'
+C:\Program Files (x86)\Git-Work\CS433\Quiz 4\CPUID_check_RDSEED\source.cpp(27,20): message : consider using '%lld' in the format string
+C:\Program Files (x86)\Git-Work\CS433\Quiz 4\CPUID_check_RDSEED\source.cpp(27,20): message : consider using '%Id' in the format string
+C:\Program Files (x86)\Git-Work\CS433\Quiz 4\CPUID_check_RDSEED\source.cpp(27,20): message : consider using '%I64d' in the format string
+C:\Program Files (x86)\Git-Work\CS433\Quiz 4\CPUID_check_RDSEED\source.cpp(31,12): warning C4477: 'printf' : format string '%11X' requires an argument of type 'unsigned int', but variadic argument 1 has type '__int64'
+C:\Program Files (x86)\Git-Work\CS433\Quiz 4\CPUID_check_RDSEED\source.cpp(31,12): message : consider using '%llX' in the format string
+C:\Program Files (x86)\Git-Work\CS433\Quiz 4\CPUID_check_RDSEED\source.cpp(31,12): message : consider using '%IX' in the format string
+C:\Program Files (x86)\Git-Work\CS433\Quiz 4\CPUID_check_RDSEED\source.cpp(31,12): message : consider using '%I64X' in the format string
+  CPUID_check_RDSEED.vcxproj -> C:\Program Files (x86)\Git-Work\CS433\Quiz 4\CPUID_check_RDSEED\x64\Debug\CPUID_check_RDSEED.exe

@@ -1,0 +1,15 @@
+﻿  source.cpp
+C:\Program Files (x86)\Git-Work\CS433\Quiz 4\CPUID_check_RDSEED\source.cpp(22,20): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type '__int64'
+C:\Program Files (x86)\Git-Work\CS433\Quiz 4\CPUID_check_RDSEED\source.cpp(22,20): message : consider using '%lld' in the format string
+C:\Program Files (x86)\Git-Work\CS433\Quiz 4\CPUID_check_RDSEED\source.cpp(22,20): message : consider using '%Id' in the format string
+C:\Program Files (x86)\Git-Work\CS433\Quiz 4\CPUID_check_RDSEED\source.cpp(22,20): message : consider using '%I64d' in the format string
+C:\Program Files (x86)\Git-Work\CS433\Quiz 4\CPUID_check_RDSEED\source.cpp(27,20): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type '__int64'
+C:\Program Files (x86)\Git-Work\CS433\Quiz 4\CPUID_check_RDSEED\source.cpp(27,20): message : consider using '%lld' in the format string
+C:\Program Files (x86)\Git-Work\CS433\Quiz 4\CPUID_check_RDSEED\source.cpp(27,20): message : consider using '%Id' in the format string
+C:\Program Files (x86)\Git-Work\CS433\Quiz 4\CPUID_check_RDSEED\source.cpp(27,20): message : consider using '%I64d' in the format string
+  Generating code
+  0 of 4 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  CPUID_check_RDSEED.vcxproj -> C:\Program Files (x86)\Git-Work\CS433\Quiz 4\CPUID_check_RDSEED\x64\Release\CPUID_check_RDSEED.exe

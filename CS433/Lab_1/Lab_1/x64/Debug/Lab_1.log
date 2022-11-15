@@ -1,0 +1,100 @@
+﻿  Lab_1.cpp
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(18,5): error C4235: nonstandard extension used: '__asm' keyword not supported on this architecture
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(20,9): error C2065: 'FINIT': undeclared identifier
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(20,16): error C2065: 'Set': undeclared identifier
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(20,20): error C2146: syntax error: missing ';' before identifier 'FPU'
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(20,20): error C2065: 'FPU': undeclared identifier
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(20,24): error C2146: syntax error: missing ';' before identifier 'to'
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(20,24): error C2065: 'to': undeclared identifier
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(20,27): error C2146: syntax error: missing ';' before identifier 'default'
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(20,27): error C2065: 'default': undeclared identifier
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(20,35): error C2146: syntax error: missing ';' before identifier 'state'
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(20,35): error C2065: 'state': undeclared identifier
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(21,9): error C2146: syntax error: missing ';' before identifier 'FLDCW'
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(21,9): error C2065: 'FLDCW': undeclared identifier
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(21,15): error C2146: syntax error: missing ';' before identifier 'cntrl'
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(21,22): error C2065: 'Round': undeclared identifier
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(21,28): error C2146: syntax error: missing ';' before identifier 'even'
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(21,28): error C2065: 'even': undeclared identifier
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(21,34): error C2065: 'Mask': undeclared identifier
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(21,39): error C2146: syntax error: missing ';' before identifier 'Interrupts'
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(21,39): error C2065: 'Interrupts': undeclared identifier
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(23,9): error C2146: syntax error: missing ';' before identifier 'FLD'
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(23,9): error C2065: 'FLD': undeclared identifier
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(23,13): error C2146: syntax error: missing ';' before identifier 'B'
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(23,16): error C2065: 'Push': undeclared identifier
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(23,21): error C2146: syntax error: missing ';' before identifier 'SY'
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(23,21): error C2065: 'SY': undeclared identifier
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(23,24): error C2146: syntax error: missing ';' before identifier 'onto'
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(23,24): error C2065: 'onto': undeclared identifier
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(23,29): error C2146: syntax error: missing ';' before identifier 'FP'
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(23,29): error C2065: 'FP': undeclared identifier
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(23,32): error C2146: syntax error: missing ';' before identifier 'stack'
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(23,32): error C2065: 'stack': undeclared identifier
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(24,9): error C2146: syntax error: missing ';' before identifier 'FSQRT'
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(24,9): error C2065: 'FSQRT': undeclared identifier
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(24,16): error C2065: 'Square': undeclared identifier
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(24,23): error C2146: syntax error: missing ';' before identifier 'root'
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(24,23): error C2065: 'root': undeclared identifier
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(24,28): error C2146: syntax error: missing ';' before identifier 'number'
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(24,28): error C2065: 'number': undeclared identifier
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(24,35): error C2146: syntax error: missing ';' before identifier 'on'
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(24,35): error C2065: 'on': undeclared identifier
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(24,38): error C2146: syntax error: missing ';' before identifier 'stack'
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(24,38): error C2065: 'stack': undeclared identifier
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(26,9): error C2146: syntax error: missing ';' before identifier 'FLD'
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(26,9): error C2065: 'FLD': undeclared identifier
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(26,13): error C2146: syntax error: missing ';' before identifier 'A'
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(26,16): error C2065: 'Push': undeclared identifier
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(26,21): error C2146: syntax error: missing ';' before identifier 'A'
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(26,23): error C2146: syntax error: missing ';' before identifier 'onto'
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(26,23): error C2065: 'onto': undeclared identifier
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(26,28): error C2146: syntax error: missing ';' before identifier 'FP'
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(26,28): error C2065: 'FP': undeclared identifier
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(26,31): error C2146: syntax error: missing ';' before identifier 'stack'
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(26,31): error C2065: 'stack': undeclared identifier
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(27,9): error C2146: syntax error: missing ';' before identifier 'FMUL'
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(27,9): error C2065: 'FMUL': undeclared identifier
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(27,14): error C2146: syntax error: missing ';' before identifier 'ST'
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(27,14): error C2065: 'ST': undeclared identifier
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(27,18): error C3861: 'ST': identifier not found
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(27,25): error C2065: 'Multiply': undeclared identifier
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(27,34): error C2146: syntax error: missing ';' before identifier 'A'
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(27,39): error C2146: syntax error: missing ';' before identifier 'result'
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(27,35): warning C4552: '*': result of expression not used
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(27,39): error C2065: 'result': undeclared identifier
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(27,46): error C2146: syntax error: missing ';' before identifier 'on'
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(27,46): error C2065: 'on': undeclared identifier
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(27,49): error C2146: syntax error: missing ';' before identifier 'ST'
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(27,49): error C2065: 'ST': undeclared identifier
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(30,9): error C2146: syntax error: missing ';' before identifier 'FSUB'
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(30,9): error C2065: 'FSUB': undeclared identifier
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(30,14): error C2146: syntax error: missing ';' before identifier 'ST'
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(30,14): error C2065: 'ST': undeclared identifier
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(30,18): error C3861: 'ST': identifier not found
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(30,25): error C2065: 'SUB': undeclared identifier
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(30,29): error C2146: syntax error: missing ';' before identifier 'top'
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(30,29): error C2065: 'top': undeclared identifier
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(30,33): error C2146: syntax error: missing ';' before identifier 'two'
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(30,33): error C2065: 'two': undeclared identifier
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(30,37): error C2146: syntax error: missing ';' before identifier 'numbers'
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(30,37): error C2065: 'numbers': undeclared identifier
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(30,45): error C2146: syntax error: missing ';' before identifier 'on'
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(30,45): error C2065: 'on': undeclared identifier
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(30,48): error C2146: syntax error: missing ';' before identifier 'stack'
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(30,48): error C2065: 'stack': undeclared identifier
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(31,9): error C2146: syntax error: missing ';' before identifier 'FSTP'
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(31,9): error C2065: 'FSTP': undeclared identifier
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(31,14): error C2146: syntax error: missing ';' before identifier 'C'
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(31,17): error C2065: 'Copy': undeclared identifier
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(31,22): error C2146: syntax error: missing ';' before identifier 'result'
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(31,22): error C2065: 'result': undeclared identifier
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(31,29): error C2146: syntax error: missing ';' before identifier 'from'
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(31,29): error C2065: 'from': undeclared identifier
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(31,34): error C2146: syntax error: missing ';' before identifier 'stack'
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(31,34): error C2065: 'stack': undeclared identifier
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(31,40): error C2146: syntax error: missing ';' before identifier 'into'
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(31,40): error C2065: 'into': undeclared identifier
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(31,45): error C2146: syntax error: missing ';' before identifier 'HY'
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(31,45): error C2065: 'HY': undeclared identifier
+C:\Users\Mkari\Desktop\Git\CS433\Lab_1\Lab_1\Lab_1.cpp(32,5): error C2143: syntax error: missing ';' before '}'

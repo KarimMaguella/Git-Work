@@ -1,0 +1,27 @@
+Run C++ code and test masm.asm instructions on various emulated processors:
+
+Q2
+
+Sandy Bridge:
+sde -snb -- "C:\Program Files (x86)\Git-Work\CS433\Quiz 4\CPUID_check_RDSEED\x64\Release\CPUID_check_RDSEED.exe"
+
+IvyBridge
+sde -bdw -- "C:\Program Files (x86)\Git-Work\CS433\Quiz 4\CPUID_check_RDSEED\x64\Release\CPUID_check_RDSEED.exe"
+
+Local machine:
+"C:\Program Files (x86)\Git-Work\CS433\Quiz 4\CPUID_check_RDSEED\x64\Release\CPUID_check_RDSEED.exe"
+
+Q3
+
+Sandy Bridge:
+sde -snb -- "C:\Program Files (x86)\Git-Work\CS433\Quiz 4\AVX_CPP\x64\Debug\AVX_CPP.exe"
+
+IvyBridge
+sde -bdw -- "C:\Program Files (x86)\Git-Work\CS433\Quiz 4\AVX_CPP\x64\Debug\AVX_CPP.exe"
+
+Local machine:
+"C:\Program Files (x86)\Git-Work\CS433\Quiz 4\AVX_CPP\x64\Debug\AVX_CPP.exe"
+
+Q4
+
+sde -snb -d -odebugtrace my_trace.out -global_region -start_ssc_mark 111:repeat -stop_ssc_mark 222:repeat -- "C:\Program Files (x86)\Git-Work\CS433\Quiz 4\AVX_CPP\x64\Debug\AVX_CPP.exe"
