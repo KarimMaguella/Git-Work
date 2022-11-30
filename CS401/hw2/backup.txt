@@ -1,0 +1,30 @@
+
+def main(test_size):
+
+    # test and training data
+    train = np.loadtxt("train-io.txt/train-io.txt")
+    test = np.loadtxt("test-i.txt/test-i.txt")
+
+    # train in steps of 1,000 using the 1st 100,000 rows
+    X = train[test_size:100000, :-1]
+    y = train[test_size:100000, -1]
+
+    print(test_size)
+
+    X_test = train[:test_size, :-1]
+    y_test = train[:test_size, -1]
+
+    model = svm.NuSVC(gamma="auto")
+
+    scaler = StandardScaler()
+    scaler.fit(X)
+
+    X = scaler.transform(X)
+    model.fit(X, y)
+
+    #score = model.score(X, y)
+
+    # score model against test-data
+    score = model.score(X_test, y_test)
+
+    print(score)

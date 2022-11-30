@@ -1,0 +1,6 @@
+[submodule "CS401/Assignment_Two/cs401-f2022"]
+	path = CS401/Assignment_Two/cs401-f2022
+	url = https://gitlab.cs.nuim.ie/barak/cs401-f2022.git
+[submodule "CS401"]
+	path = CS401
+	url = https://gitlab.cs.nuim.ie/barak/cs401-f2022.git

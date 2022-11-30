@@ -1,0 +1,87 @@
+    THE TAIL OF THE TALE OF THE TANKS AND A TELLING TRAIL OF TEARS
+
+		An Old Machine Learning Fable Updated
+
+A cautionary tale¹ is told to novices in machine learning.
+
+    In days of yore, long before VLSI, researchers trained a simple
+    neural network to detect images containing enemy tanks. The US
+    Army collected a corpus of labeled images. Proper methods were
+    employed: cross validation, held-out test set, etc. Performance on
+    both the training set and the unseen test set was amazing! It even
+    worked on very difficult images, with just a bit of a tank poking
+    out of foliage. But the military had collected all the with-tank
+    images on one day, and the without-tank images on another. One day
+    was sunny, the other overcast. The network had learned to classify
+    based on the brightness of the sky. Despite all their careful hard
+    work, the system was worthless.
+
+This story has three lessons we hope to impress upon our students.
+
+  * Machine-learning systems learn what's *really* in the data, not
+    what you *think* is there.
+
+  * The principle of garbage-in-garbage-out applies to machine
+    learning.
+
+  * We must sweat the details: examine the innards of our systems, try
+    to understand them, always with a skeptical mindset.
+
+Some recent work classifying images based on EEG recordings from human
+viewers is a modern example of precisely the same issue. EEG
+recordings were taken in blocks, where in each block a succession of
+many images of the same class were shown. A map from the EEG traces
+that followed presentation of an image to that image's class label was
+learned.² The problem is precisely the same as in the “tanks” story:
+just as the weather drifts slowly, making photographs taken on a sunny
+day differ systematically from ones taken on a cloudy day, so too does
+EEG drift. Stimuli have long-lasting effects, the subject grows
+fatigued or changes posture, electrodes make better or worse
+electrical contact with the scalp, heartbeat changes, the subject
+grows chilly and shivers or warm and perspires, sources of external
+electrical interference wax and wane, etc. Such temporal confounds
+completely account for the published results, and with them controlled
+away test-set performance plummets to chance³ and remains near-chance
+even with enormously more data.⁴
+
+			      The Moral
+
+We must be more careful than ever. We need to insist upon independent
+replication, to take nothing at face value, to make our assumptions
+explicit and constantly check them, to skeptically delve into the
+nitty-gritty details. To be aware that the easiest person for one to
+fool is oneself, and strive towards scientific integrity. The
+necessity for researchers to reality-check the work they build upon
+grows as our systems increase in complexity and become more opaque, as
+machine learning researchers work in domains for which they have
+little intuition or experience, and as the review process continues
+its seemingly-inexorable decline.
+________________
+¹Perhaps somewhat apocryphal; see https://www.gwern.net/Tanks
+
+ A similar story is told about distinguishing images of wolves vs
+ dogs, with the wolves always against snow and the dogs against darker
+ backgrounds.
+
+²Concetto Spampinato, Simone Palazzo, Isaak Kavasidis, Daniela
+ Giordano, Mubarak Shah, and Nasim Souly, “Deep Learning Human Mind
+ for Automated Visual Classification”, CVPR 2017, URL
+ https://openaccess.thecvf.com/content_cvpr_2017/papers/Spampinato_Deep_Learning_Human_CVPR_2017_paper.pdf
+ and a growing corpus of work using the same dataset.
+
+³Ren Li, Jared S. Johansen, Hamad Ahmed, Thomas V. Ilyevsky, Ronnie B.
+ Wilbur, Hari M. Bharadwaj, and Jeffrey Mark Siskind, “The perils and
+ pitfalls of block design for EEG classification experiments”, IEEE
+ Transactions on Pattern Analysis and Machine Intelligence, in press.
+ See also “Training on the test set? An analysis of Spampinato et al.
+ [31]”, arXiv:1812.07697, Dec 2018.
+
+⁴Hamad Ahmed, Ronnie B. Wilbur, Hari M. Bharadwaj, and Jeffrey Mark
+ Siskind, “Object classification from randomized EEG trials”,
+ arXiv:2004.06046, Apr 2020. Interestingly, even changing the design
+ so training and testing data are acquired in separate blocks (Nicolae
+ Cudlencu, Nirvana Popescu, and Marius Leordeanu, “Reading into the
+ mind’s eye: Boosting automatic visual recognition with EEG signals”,
+ Neurocomputing 386:281–92, Apr 2020, online Dec 2019, DOI:
+ 10.1016/j.neucom.2019.12.076) is shown to exhibit a similar problem
+ due to a related block-order confound.
